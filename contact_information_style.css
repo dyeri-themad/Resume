@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: none;
+}
+body {
+	font-family: montserrat;
+}
+.menu {
+	background: #000000;
+	height: 80px;
+	width: 100%;
+}
+.menu ul {
+	float: right;
+	margin-right: 20px;
+}
+.menu li	{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+.menu a {
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.menu a.active, a:hover{
+	color: #000000;
+	background: #ffffff;
+	transition: 0.5s;
+}
+html {
+	background: linear-gradient( rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.4)), url(bridge.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.contact_info {
+	position: absolute;
+	left: 50px;
+}
+.contact_info .info {
+	margin: 0;
+	position: relative;
+	margin-top: 300px;
+}
+.contact_info .info li {
+	padding-bottom: 50px;
+	color: #e0e0e0;
+	list-style: none;
+	font-size: 50px;
+	list-style: none;
+	font-family: Goudy Old Style;
+}
+.contact_info .info li .fa {
+	background: rgba(0, 0, 0, 0.04);
+	color: #e0e0e0;
+	border-radius: 50%;
+}
+.contact_info .sci li{
+	list-style: none;
+	display: inline-block;
+}
+.contact_info .sci li .fa {
+	padding: 20px;
+	font-size: 100px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	background: rgba(0, 0, 0, 0.04);
+	color: #e0e0e0;
+	border-radius: 50%;
+}
+.fa:hover {
+    opacity: 2;
+    box-shadow: 0px 0px 30px #888888;
+}
